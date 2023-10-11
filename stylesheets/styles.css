@@ -265,6 +265,10 @@ section p {
   margin: 20px auto;
 }
 
+.img-list li {
+  margin-bottom: 1em;
+}
+
 .img-list a {
   text-decoration: none;
 }
@@ -284,7 +288,7 @@ section p {
 }
 .li-img {
   display: table-cell;
-  vertical-align: middle;
+  vertical-align: top;
   width: 40%;
   padding-right: 1em;
 }
@@ -292,22 +296,36 @@ section p {
   display: block;
   width: 100%;
   height: auto;
-  
 }
 .li-text {
   display: table-cell;
-  vertical-align: middle;
-  width: 70%;
+  vertical-align: top;
+  width: 60%;
 }
+
 .li-head {
-  margin: 10px 0 0 0;
   color: #ced8ee;
   font-weight: 600;
+  margin-bottom: 0.2em;
 }
 .li-sub {
-  margin: 0;
+  
   font-size: 14px;
-  margin-top: 0.4em;
+}
+
+.li-sub a {
+  color: #ced8ee;
+  font-weight: 400;
+}
+
+.project-links a {
+  color: #ced8ee;
+  font-weight: 500;
+}
+
+.project-links {
+  margin-top: 0.3em;
+  margin-bottom: 0.6em;
 }
 
 section ul {
