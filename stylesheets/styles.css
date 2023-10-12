@@ -356,3 +356,40 @@ section ul {
   word-wrap: break-word;
   white-space: normal;
 }
+.content-section {
+  padding-top: 0.5em;
+}
+
+.li-timeline {
+  display: table-cell;
+  vertical-align: top;
+  width: 40%;
+  padding-right: 1em;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.li-subhead {
+  color: #ced8ee;
+  font-weight: 400;
+  margin-bottom: 0.2em;
+  font-size: 15px;
+}
+
+.section-footer {
+  font-size: 14px;
+  margin-top: 5em;
+  font-weight: 450;
+}
+
+.section-footer p {
+  color: #49556f;
+}
+
+.section-footer a {
+  color: #8193b4ff;
+}
+
+.section-footer a:hover {
+  color: #ced8ee;
+}
