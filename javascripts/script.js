@@ -1,4 +1,4 @@
-var focusList = ["about-nav", "experience-nav", "projects-nav", "resume-nav"]
+var focusList = ["about-nav", "experience-nav", "projects-nav", "certificates-nav", "resume-nav"]
 function focusSelect(event){
     var element = document.getElementById(event);
     for (elem of focusList) {
